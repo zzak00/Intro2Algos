@@ -8,3 +8,15 @@ def Insertion_Sort(A):
             i-=1
         A[i+1]=key    
     return A
+
+
+def Selection_Sort(A):
+    for j in range(len(A)):
+        min_index=j
+        for i in range (j,len(A)):
+            if A[i]<A[min_index]:
+                min_index=i
+        temp=A[j]
+        A[j]=A[min_index]
+        A[min_index]=temp
+    return A
