@@ -11,9 +11,9 @@ def Insertion_Sort(A):
 
 
 def Selection_Sort(A):
-    for j in range(len(A)):
+    for j in range(len(A)-1):
         min_index=j
-        for i in range (j,len(A)):
+        for i in range (j+1,len(A)):
             if A[i]<A[min_index]:
                 min_index=i
         temp=A[j]
