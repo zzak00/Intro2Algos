@@ -16,7 +16,8 @@ def Selection_Sort(A):
         for i in range (j+1,len(A)):
             if A[i]<A[min_index]:
                 min_index=i
-        temp=A[j]
-        A[j]=A[min_index]
-        A[min_index]=temp
+        if min_index != j:
+            temp=A[j]
+            A[j]=A[min_index]
+            A[min_index]=temp
     return A
