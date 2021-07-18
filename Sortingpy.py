@@ -1,3 +1,5 @@
+import math
+
 def insertion_sort(A):
     for j in range(1,len(A)):
         key=A[j]
@@ -31,8 +33,6 @@ def merge(A,p,q,r):
     R.append(float('inf'))
     i=0
     j=0
-    print(L)
-    print(R)
     for k in range(p,r):
         if L[i]<=R[j]:
             A[k]=L[i]
@@ -40,4 +40,12 @@ def merge(A,p,q,r):
         else:
             A[k]=R[j]
             j=j+1
+    return A
+
+def merge_sort(A,p,r):
+    if p<r :
+        q=math.floor((p+r)/2)
+        merge_sort(A,p,q)
+        merge_sort(A,q+1,r)
+        merge(A,p,q,r)
     return A
