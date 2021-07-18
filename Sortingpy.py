@@ -22,7 +22,7 @@ def selection_sort(A):
             A[min_index]=temp
     return A
 
-def Merge(A,p,q,r):
+def merge(A,p,q,r):
     # p: index start subarray 1
     # q: index start subarray 2
     L=A[p:q]
