@@ -1,4 +1,4 @@
-def Insertion_Sort(A):
+def insertion_sort(A):
     for j in range(1,len(A)):
         key=A[j]
         # insert A[j] into the sorted sequence A[1:j]
@@ -10,7 +10,7 @@ def Insertion_Sort(A):
     return A
 
 
-def Selection_Sort(A):
+def selection_sort(A):
     for j in range(len(A)-1):
         min_index=j
         for i in range (j+1,len(A)):
@@ -20,4 +20,24 @@ def Selection_Sort(A):
             temp=A[j]
             A[j]=A[min_index]
             A[min_index]=temp
+    return A
+
+def Merge(A,p,q,r):
+    # p: index start subarray 1
+    # q: index start subarray 2
+    L=A[p:q]
+    R=A[q:r]
+    L.append(float('inf'))
+    R.append(float('inf'))
+    i=0
+    j=0
+    print(L)
+    print(R)
+    for k in range(p,r):
+        if L[i]<=R[j]:
+            A[k]=L[i]
+            i=i+1
+        else:
+            A[k]=R[j]
+            j=j+1
     return A

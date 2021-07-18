@@ -1,6 +1,8 @@
 import Sortingpy as sp
-A=[1,3,4,2]
+A=[1,3,4,1,2]
 print('Insertion Sort')
-print(sp.Insertion_Sort(A))
+print(sp.insertion_sort(A))
 print('Selection Sort')
-print(sp.Selection_Sort(A))
+print(sp.selection_sort(A))
+A=[1,3,5,2,4]
+print(sp.Merge(A,0,3,5))
