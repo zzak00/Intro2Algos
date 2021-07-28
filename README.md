@@ -4,6 +4,7 @@
 * Selection Sort 
 * Merge Sort
 * Bubble Sort 
+* Heap Sort
 
 
 ## Peak Finder:
