@@ -1,5 +1,5 @@
 
-def insertion_sort(A):
+def insertionSort(A):
     for j in range(1,len(A)):
         key=A[j]
         # insert A[j] into the sorted sequence A[1:j]
@@ -11,7 +11,7 @@ def insertion_sort(A):
     return A
 
 
-def selection_sort(A):
+def selectionSort(A):
     for j in range(len(A)-1):
         min_index=j
         for i in range (j+1,len(A)):
@@ -41,11 +41,11 @@ def merge(A,p,q,r):
             j=j+1
     return A
 
-def merge_sort(A,p,r):
+def mergeSort(A,p,r):
     if p<r :
         q=(p+r)//2
-        merge_sort(A,p,q)
-        merge_sort(A,q+1,r)
+        mergeSort(A,p,q)
+        mergeSort(A,q+1,r)
         merge(A,p,q,r)
     return A
 
