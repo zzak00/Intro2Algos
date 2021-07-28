@@ -3,6 +3,7 @@
 * Insertion Sort
 * Selection Sort 
 * Merge Sort
+* Bubble Sort 
 
 
 ## Peak Finder:
