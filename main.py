@@ -32,4 +32,3 @@ print(pf.peakfinder_2D(problemMatrix,0,m))'''
 #A=[1,3,4,1,2]
 #print(sp.bubbleSort(A))
 A=[10,20,25,6,12,15,4,16]
-print(sp.max_heapify(A,0))
