@@ -56,3 +56,20 @@ def bubbleSort(A):
             if A[j] > A[j+1] : 
                 A[j], A[j+1] = A[j+1], A[j] 
     return A
+
+def maxHeapify(A,i):
+    n= len(A)
+    i=(i-1)//2
+    l= 2*i+1
+    r= 2*i+2
+    if l<n and A[l]>A[i]:
+        print(A[l])
+        larg=l 
+    else:
+        larg=i
+    if r<n and A[r]>A[larg]:
+        larg=r
+    if larg!=i:
+        A[i],A[larg]=A[larg],A[i]
+        maxHeapify(A,larg)
+    return A
