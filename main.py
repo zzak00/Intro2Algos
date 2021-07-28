@@ -11,7 +11,7 @@ print(sp.selection_sort(A))
 print('Merge Sort')
 print(sp.merge_sort(A,0,5))'''
 
-
+'''
 problemMatrix = np.array([
 	[ 4,  5,  6,  7,  8,  7,  6,  5,  4,  3,  2],
 	[ 5,  6,  7,  8,  9,  8,  7,  6,  5,  4,  3],
@@ -26,4 +26,8 @@ problemMatrix = np.array([
 	[ 2,  3,  4,  5,  6,  5,  4,  3,  2,  1,  0]
 ])
 n,m=problemMatrix.shape
-print(pf.peakfinder_2D(problemMatrix,0,m))
+print(pf.peakfinder_2D(problemMatrix,0,m))'''
+#a=[2,1]
+#print(pf.peakfinder_1D(a,0,2))
+A=[1,3,4,1,2]
+print(sp.bubbleSort(A))
