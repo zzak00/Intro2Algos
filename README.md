@@ -1,4 +1,4 @@
-# Intro2Algos
+# Introduction to Algorithms
 ## Sorting Algorithms:
 * Insertion Sort
 * Selection Sort 
