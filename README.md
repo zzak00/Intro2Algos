@@ -10,3 +10,6 @@
 ## Peak Finder:
 * Peak Finder 1D
 * Peak Finder 2D
+
+## Divide and Conquer:
+* Inversions
