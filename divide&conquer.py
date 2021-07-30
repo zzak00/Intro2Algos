@@ -1,4 +1,6 @@
 # Inversions
+# A[1..n] is an array of n distinct numbers. if i<j and A[i]>A[j] then pair (i,j) is called an inversion of A
+# Count inversions wit O(nlgn)
 def inversionsBF(arr):
     num_inversions = 0
     n = len(arr)
