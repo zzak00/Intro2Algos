@@ -14,8 +14,6 @@ def mergeInv(A,p,q,r):
     # p: index start subarray 1
     # q: index start subarray 2
     # r: ending index subarray 2 (included)
-    # A=[3,2,8,6,1]
-    # mergeSort(A,0,4)
     L=A[p:q+1]
     R=A[q+1:r+1]
     L.append(float('inf'))
