@@ -13,3 +13,4 @@
 
 ## Divide and Conquer:
 * Inversions
+* Maximum subarray 
