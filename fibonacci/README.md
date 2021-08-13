@@ -10,8 +10,6 @@ Fn=Fn−1+Fn−2     &nbsp; for n≥2, with F0=0 and F1=1.
 Let define the generating function for the Fibonacci numbers as follows:
 
 and prove that: 
-$
 F(x)=x+x.F(x)+x^2.F(x)
-$
 Solving for the generating function, we get:
 F(x)=x1−x−x2.
