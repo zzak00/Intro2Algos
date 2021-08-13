@@ -13,3 +13,5 @@ and prove that:
 F(x)=x+x.F(x)+x^2.F(x)
 Solving for the generating function, we get:
 F(x)=x1−x−x2.
+<img src="https://latex.codecogs.com/svg.image?Fn=Fn-1&plus;Fn-2" title="Fn=Fn-1+Fn-2" />
+><span style="color:blue"><img src="https://latex.codecogs.com/svg.image?Fn=Fn-1&plus;Fn-2" title="Fn=Fn-1+Fn-2" /></span>.
