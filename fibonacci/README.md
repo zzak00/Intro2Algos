@@ -18,3 +18,7 @@ Solving for the generating function, we get:
   
 ><img src="https://latex.codecogs.com/svg.image?\begin{align*}\mathfrak{F}(z)&space;&space;&space;&space;&&space;=&space;\frac{z}{1&space;-&space;z&space;-&space;z^2}.\end{align*}" title="\begin{align*}\mathfrak{F}(z) & = \frac{z}{1 - z - z^2}.\end{align*}" />
 
+Next, we need to find roots of the denominator and use partial fraction derivative in order to express the generating function as a power seriesthen match its coefficients term-by-term with the corresponding Fibonacci numbers.
+
+### Roots are: 
+><img src="https://latex.codecogs.com/svg.image?\begin{align*}\phi&space;&space;&space;&space;&&space;=&space;\frac{1&space;&plus;&space;\sqrt{5}}{2}&space;=&space;1.61803...&space;\\\bar\phi&space;&space;&space;&space;&&space;=&space;\frac{1&space;-&space;\sqrt{5}}{2}&space;=&space;-0.61803...&space;\\\end{align*}" title="\begin{align*}\phi & = \frac{1 + \sqrt{5}}{2} = 1.61803... \\\bar\phi & = \frac{1 - \sqrt{5}}{2} = -0.61803... \\\end{align*}" />
