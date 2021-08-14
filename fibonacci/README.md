@@ -1,6 +1,6 @@
 # Generating function and Fibonacci numbers
 
-According to Wikipedia, [Generating fuctions](https://en.wikipedia.org/wiki/Generating_function) is a way of encoding an infinite sequence of numbers (a_n) by treating them as the coefficients of a formal power series.
+According to Wikipedia, [Generating fuctions](https://en.wikipedia.org/wiki/Generating_function) is a way of encoding an infinite sequence of numbers by treating them as the coefficients of a formal power series.
 
 ## The Fibonacci Sequence as a Power Series
 
@@ -36,7 +36,7 @@ Matching the coefficients, we conclude that:
 
 ### Observation:
 <img src="https://latex.codecogs.com/svg.image?\left|&space;\bar\phi&space;\right|<&space;1" title="\left| \bar\phi \right|< 1" />
-as n goes to infinity, pih_bar goes to 0.
-At the end, we claim that:
-><img src="https://latex.codecogs.com/svg.image?\begin{align*}F_n&space;&space;&space;&space;&&space;=&space;\frac{1}{\sqrt{5}}&space;&space;\phi^n&space;\hspace{20pt}&space;for&space;\hspace{10pt}&space;i>0\end{align*}" title="\begin{align*}F_n & = \frac{1}{\sqrt{5}} \phi^n \hspace{20pt} for \hspace{10pt} i>0\end{align*}" />
-rounded to the nearest integer.
+as n goes to infinity, phi_bar goes to 0.
+
+At the end, we state that:
+><img src="https://latex.codecogs.com/svg.image?\begin{align*}F_n&space;&space;&space;&space;&&space;=&space;\frac{1}{\sqrt{5}}&space;&space;\phi^n&space;\hspace{20pt}&space;for&space;\hspace{10pt}&space;i>0\end{align*}" title="\begin{align*}F_n & = \frac{1}{\sqrt{5}} \phi^n \hspace{20pt} for \hspace{10pt} i>0\end{align*}" /> rounded to the nearest integer.
