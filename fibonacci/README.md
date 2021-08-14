@@ -22,3 +22,6 @@ Next, we need to find roots of the denominator and use partial fraction derivati
 
 ### Roots are: 
 ><img src="https://latex.codecogs.com/svg.image?\begin{align*}\phi&space;&space;&space;&space;&&space;=&space;\frac{1&space;&plus;&space;\sqrt{5}}{2}&space;=&space;1.61803...&space;\\\bar\phi&space;&space;&space;&space;&&space;=&space;\frac{1&space;-&space;\sqrt{5}}{2}&space;=&space;-0.61803...&space;\\\end{align*}" title="\begin{align*}\phi & = \frac{1 + \sqrt{5}}{2} = 1.61803... \\\bar\phi & = \frac{1 - \sqrt{5}}{2} = -0.61803... \\\end{align*}" />
+
+Therefore:
+><img src="https://latex.codecogs.com/svg.image?\begin{align*}\mathfrak{F}(x)&space;&space;&space;&space;&&space;=&space;\frac{1}{\sqrt{5}}&space;\left(&space;\frac{1}{1&space;-\phi&space;z}&space;-&space;\frac{1}{1&space;-\bar\phi&space;z}&space;\right).\end{align*}" title="\begin{align*}\mathfrak{F}(x) & = \frac{1}{\sqrt{5}} \left( \frac{1}{1 -\phi z} - \frac{1}{1 -\bar\phi z} \right).\end{align*}" />
