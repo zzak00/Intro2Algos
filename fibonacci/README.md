@@ -30,3 +30,13 @@ We now wish to express each of these two terms as the sum of a geometric series.
 ><img src="https://latex.codecogs.com/svg.image?\begin{align*}\frac{1}{1&space;-&space;x}&space;&space;&space;&space;&&space;=&space;\sum_{n&space;=&space;0}^\infty&space;x^n.\end{align*}" title="\begin{align*}\mathfrak{F}(x) & = \frac{1}{\sqrt{5}} \left( \frac{1}{1 -\phi z} - \frac{1}{1 -\bar\phi z} \right).\end{align*}\begin{align*}\frac{1}{1 - x} & = \sum_{n = 0}^\infty x^n.\end{align*}" />
 Note that this infinite sum converges if and only if |x|<1. However, considered as a formal power series, this identity always holds, then:
 ><img src="https://latex.codecogs.com/svg.image?\begin{align*}\mathfrak{F}(x)&space;&space;&space;&space;&&space;=&space;\frac{1}{\sqrt{5}}&space;\left(&space;\frac{1}{1&space;-&space;\phi&space;z}&space;-&space;\frac{1}{1&space;-&space;\bar\phi&space;z}&space;\right)&space;\\&space;&space;&space;&space;&&space;=&space;\frac{1}{\sqrt{5}}&space;\left(&space;\sum_{n&space;=&space;0}^\infty&space;\phi^n&space;x^n&space;-&space;\sum_{n&space;=&space;0}^\infty&space;\bar\phi^n&space;x^n&space;\right)&space;&space;&space;\\&space;&space;&space;&space;&&space;=&space;\sum_{n&space;=&space;0}^\infty&space;\frac{1}{\sqrt{5}}&space;\left(&space;\phi^n&space;-&space;\bar\phi^n&space;\right)&space;x^n.\end{align*}" title="\begin{align*}\mathfrak{F}(x) & = \frac{1}{\sqrt{5}} \left( \frac{1}{1 - \phi z} - \frac{1}{1 - \bar\phi z} \right) \\ & = \frac{1}{\sqrt{5}} \left( \sum_{n = 0}^\infty \phi^n x^n - \sum_{n = 0}^\infty \bar\phi^n x^n \right) \\ & = \sum_{n = 0}^\infty \frac{1}{\sqrt{5}} \left( \phi^n - \bar\phi^n \right) x^n.\end{align*}" />
+
+Matching the coefficients, we conclude that:
+><img src="https://latex.codecogs.com/svg.image?\begin{align*}F_n&space;&space;&space;&space;&&space;=&space;\frac{1}{\sqrt{5}}&space;\left(&space;\phi^n&space;-&space;\bar\phi^n&space;\right).\end{align*}" title="\begin{align*}F_n & = \frac{1}{\sqrt{5}} \left( \phi^n - \bar\phi^n \right).\end{align*}" />
+
+### Observation:
+<img src="https://latex.codecogs.com/svg.image?\left|&space;\bar\phi&space;\right|<&space;1" title="\left| \bar\phi \right|< 1" />
+as n goes to infinity, pih_bar goes to 0.
+At the end, we claim that:
+><img src="https://latex.codecogs.com/svg.image?\begin{align*}F_n&space;&space;&space;&space;&&space;=&space;\frac{1}{\sqrt{5}}&space;&space;\phi^n&space;\hspace{20pt}&space;for&space;\hspace{10pt}&space;i>0\end{align*}" title="\begin{align*}F_n & = \frac{1}{\sqrt{5}} \phi^n \hspace{20pt} for \hspace{10pt} i>0\end{align*}" />
+rounded to the nearest integer.
