@@ -6,6 +6,9 @@
 * Bubble Sort 
 * Heap Sort
 
+## Fibonacci:
+* Fibounacci
+* Generating function
 
 ## Peak Finder:
 * Peak Finder 1D
