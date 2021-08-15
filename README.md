@@ -7,7 +7,7 @@
 * Heap Sort
 
 ## Fibonacci:
-* Fibounacci
+* Fibonacci
 * Generating function
 
 
