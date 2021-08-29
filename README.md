@@ -17,3 +17,4 @@
 * Peak Finder 1D
 * Peak Finder 2D
 * Hanoi Towers
+* Permutations
